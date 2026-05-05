@@ -4,3 +4,39 @@
 
 #sidebar::-webkit-scrollbar { width: 3px; }
 #sidebar::-webkit-scrollbar-thumb { background: #3a3430; }
+
+/* Banner animation keyframes */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(8px); }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+/* Apply animations to banner decorative elements */
+.banner-decoration-float {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.banner-decoration-shimmer {
+  animation: shimmer 4s ease-in-out infinite;
+}
+
+/* Smooth fade-in for hero elements */
+.hero-fade-in {
+  animation: fadeInScale 0.6s ease forwards;
+}
