@@ -25,29 +25,40 @@ export default function Recall() {
 
         <SecLabel>Recall Appointment</SecLabel>
         <P>
-          Mrs Watkins attended her recall appointment approximately six weeks following denture
-          delivery. She reported general satisfaction with both prostheses and noted a significant
-          improvement in comfort and aesthetics compared to her previous dentures. No sore spots
-          were reported in the upper arch. A minor area of discomfort was noted in the lower right
-          buccal region, which was relieved chairside.
+          Mrs Watkins returned for her recall appointment one week following denture delivery.
+          She presented dissatisfied with both prostheses, expressing that she could not adapt
+          to the flanged design and that the dentures felt foreign compared to the gumless style
+          she had worn for many years. She remained insistent on a flangeless upper denture,
+          a request that had been discussed and declined on clinical grounds at multiple points
+          throughout treatment.
         </P>
         <P>
-          Mucosal assessment revealed no active ulceration attributable to the new dentures.
-          Denture hygiene was assessed and found to be satisfactory; Mrs Watkins confirmed
-          compliance with the post-insertion instructions. Chlorhexidine use was continued in
-          keeping with her ongoing pemphigus vulgaris management.
+          The case was reviewed with the supervising clinicians, who confirmed that no further
+          modifications could be made within the scope of our undergraduate training and that
+          the prostheses had been constructed to the appropriate clinical standard. In light of
+          Mrs Watkins' longstanding expectations, her complex medical background, and her
+          difficulty adapting to conventional complete dentures, the decision was made to refer
+          her to the postgraduate prosthodontics department for specialist review and ongoing
+          management.
+        </P>
+        <P>
+          While the outcome was not what we had hoped for, this case reinforced an important
+          clinical lesson: that patient satisfaction in complete denture therapy is shaped as
+          much by expectation management and prior prosthetic experience as by technical
+          execution. Mrs Watkins' case is documented further in our reflection.
         </P>
 
         <SecLabel>Clinical Observations</SecLabel>
         <InfoBox title="Recall Findings">
           <InfoList
             items={[
-              'Retention and stability: satisfactory on both arches',
-              'Occlusal contacts: even; no adjustments required',
-              'Lower right buccal pressure spot: identified and relieved',
-              'Mucosa: healthy; no denture-related ulceration observed',
-              'Patient-reported outcome: satisfied with aesthetics and function',
-              'Denture hygiene: good compliance with cleaning instructions',
+              'Recall: one week post-delivery',
+              'Patient dissatisfied — unable to adapt to flanged denture design',
+              'Preference for gumless style based on long-term prior wear',
+              'Request for flangeless upper declined — not clinically indicated at this facility',
+              'Prostheses assessed as clinically acceptable by supervising clinicians',
+              'No further modifications possible within undergraduate scope',
+              'Referred to postgraduate prosthodontics for specialist review',
             ]}
           />
         </InfoBox>
