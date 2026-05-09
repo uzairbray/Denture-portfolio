@@ -69,9 +69,9 @@ export default function Literature() {
           careful management during impression procedures, with particular attention to avoiding
           repeated trauma, and that dental appliances should be designed to minimise pressure on
           affected sites. In Mrs Watkins' case, recurring ulcers were observed at multiple
-          appointments, and the application of topical anaesthetic prior to lower tray fitting —
-          as well as repeated prescriptions of chlorhexidine 0.2% — was necessary to manage active
-          mucosal inflammation throughout treatment.
+          appointments, and the application of topical anaesthetic prior to lower tray fitting
+          was necessary to manage active mucosal inflammation throughout treatment. Chlorhexidine
+          0.2% was prescribed at the initial visit to address an existing lingual ulcer.
         </P>
         <P>
           Furthermore, Mrs Watkins' long-term use of systemic corticosteroids (Prednisone) for PV

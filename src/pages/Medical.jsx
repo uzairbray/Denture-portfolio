@@ -48,8 +48,9 @@ export default function Medical() {
         <P>
           Pemphigus vulgaris combined with long-term Prednisone use predisposes Mrs Watkins to
           delayed mucosal healing and recurring oral ulcerations, both observed throughout
-          treatment. Chlorhexidine 0.2% was prescribed at multiple visits. Topical anaesthetic was
-          applied prior to lower denture fitting to manage discomfort. Blood tests are conducted
+          treatment. Chlorhexidine 0.2% was prescribed at the initial visit for management of a
+          lingual ulcer. Topical anaesthetic was applied prior to lower denture fitting to manage
+          discomfort. Blood tests are conducted
           every 3 months to monitor renal function.
         </P>
 

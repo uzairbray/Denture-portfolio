@@ -29,8 +29,7 @@ export default function Delivery() {
         <P>
           Post-insertion instructions were issued verbally and in writing. Mrs Watkins was advised
           to attend a recall appointment within six weeks to review fit, occlusion, and mucosal
-          response. A prescription for chlorhexidine 0.2% was continued given the ongoing
-          pemphigus vulgaris management.
+          response.
         </P>
 
         <SecLabel>Completed Dentures</SecLabel>
@@ -53,7 +52,6 @@ export default function Delivery() {
               'Remove at night — store in cold water',
               'Soft diet initially; progress gradually',
               'Return to clinic if persistent sore spots develop',
-              'Continue chlorhexidine 0.2% as prescribed',
               'Recall appointment scheduled',
             ]}
           />

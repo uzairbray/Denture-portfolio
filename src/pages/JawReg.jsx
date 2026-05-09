@@ -37,8 +37,7 @@ export default function JawReg() {
         <P>
           Record blocks were submitted with all required scribed reference lines (centre line,
           smile line, corners of mouth, and reference line), secured in occlusion with Aluwax.
-          Chlorhexidine was prescribed again for mandibular ulcers; topical anaesthetic was applied
-          to manage discomfort during fitting of the lower block.
+          Topical anaesthetic was applied to manage discomfort during fitting of the lower block.
         </P>
 
         <Hr />
