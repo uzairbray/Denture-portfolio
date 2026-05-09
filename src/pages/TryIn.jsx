@@ -2,11 +2,9 @@ import PageHeader from '../components/PageHeader'
 import PageBody from '../components/PageBody'
 import SecLabel from '../components/SecLabel'
 import InfoBox, { InfoList } from '../components/InfoBox'
-import { ClinicalImg, ImgPair } from '../components/ClinicalImg'
+import { ClinicalImg } from '../components/ClinicalImg'
 import Byline from '../components/Byline'
 import articulatorFrontal from '../assets/articulator-frontal.jpeg'
-import articulatorOcclusion from '../assets/articulator-occlusion.jpeg'
-import articulatorLateral from '../assets/articulator-lateral.jpeg'
 
 const P = ({ children }) => (
   <p className="text-[14px] leading-[1.85] text-[#3d3530] mb-[18px] font-light">{children}</p>
@@ -46,14 +44,6 @@ export default function TryIn() {
           alt="Articulator showing anterior tooth setup — frontal view"
           caption="Frontal view of the tooth setup on the articulator prior to try-in"
         />
-        <ImgPair
-          images={[
-            { src: articulatorOcclusion, alt: 'Articulator held — frontal view of occlusion' },
-            { src: articulatorLateral, alt: 'Articulator — lateral view showing occlusal relationship' },
-          ]}
-          caption="Left: Frontal occlusal view. Right: Lateral view showing occlusal relationship of upper and lower wax dentures"
-        />
-
         <Byline />
       </PageBody>
     </>

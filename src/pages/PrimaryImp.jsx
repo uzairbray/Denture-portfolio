@@ -4,7 +4,7 @@ import SecLabel from '../components/SecLabel'
 import InfoBox, { InfoList } from '../components/InfoBox'
 import { ClinicalImg } from '../components/ClinicalImg'
 import Byline from '../components/Byline'
-import primaryModel from '../assets/primary-model.jpeg'
+import lowerModelTrimmed from '../assets/lower-model-trimmed.jpeg'
 
 const P = ({ children }) => (
   <p className="text-[14px] leading-[1.85] text-[#3d3530] mb-[18px] font-light">{children}</p>
@@ -41,9 +41,9 @@ export default function PrimaryImp() {
 
         <SecLabel>Primary Model</SecLabel>
         <ClinicalImg
-          src={primaryModel}
-          alt="Primary model with arch wire"
-          caption="Primary stone model of the mandibular arch with positioning wire"
+          src={lowerModelTrimmed}
+          alt="Trimmed lower stone model"
+          caption="Trimmed lower stone model from primary impression"
         />
 
         <Byline />

@@ -8,7 +8,6 @@ import waxBlockTools from '../assets/wax-block-tools.jpeg'
 import waxBlockCarving from '../assets/wax-block-carving.jpeg'
 import recordBlockTop from '../assets/record-block-top.jpeg'
 import recordBlockSide from '../assets/record-block-side.jpeg'
-import recordBlocksModels from '../assets/record-blocks-models.jpeg'
 
 const P = ({ children }) => (
   <p className="text-[14px] leading-[1.85] text-[#3d3530] mb-[18px] font-light">{children}</p>
@@ -65,13 +64,6 @@ export default function JawReg() {
             { src: recordBlockSide, alt: 'Red wax record block — side view' },
           ]}
           caption="Upper wax record block — occlusal (top) and buccal (side) views"
-        />
-
-        <SecLabel>Record Blocks on Models</SecLabel>
-        <ClinicalImg
-          src={recordBlocksModels}
-          alt="Record blocks seated on stone models"
-          caption="Record blocks received from the laboratory, seated on working models"
         />
 
         <Byline />

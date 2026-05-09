@@ -5,6 +5,7 @@ import InfoBox, { InfoList } from '../components/InfoBox'
 import { ClinicalImg } from '../components/ClinicalImg'
 import Byline from '../components/Byline'
 import completedDentures from '../assets/completed-dentures.jpeg'
+import articulatorOcclusion from '../assets/articulator-occlusion.jpeg'
 
 const P = ({ children }) => (
   <p className="text-[14px] leading-[1.85] text-[#3d3530] mb-[18px] font-light">{children}</p>
@@ -37,6 +38,11 @@ export default function Delivery() {
           src={completedDentures}
           alt="Completed upper and lower dentures"
           caption="Completed upper and lower complete dentures prior to delivery — Shade A2"
+        />
+        <ClinicalImg
+          src={articulatorOcclusion}
+          alt="Occlusal view of tooth setup on articulator"
+          caption="Occlusal view of the final tooth setup on the articulator prior to processing"
         />
 
         <SecLabel>Patient Instructions Given</SecLabel>
