@@ -47,7 +47,7 @@ export default function Diagnosis() {
               'Fitting surfaces: voids bilaterally; yellow staining; plaque and calculus',
               'Palate surface: yellow staining',
               'Teeth: abraded; plaque and calculus present',
-              'RFH: 4.5 mm &nbsp;|&nbsp; OVD: 4.5 mm &nbsp;|&nbsp; Free-way Space: 0.5 mm &nbsp;|&nbsp; IAD: 21 mm',
+              'RFH: 60 mm &nbsp;|&nbsp; OVD: 56 mm &nbsp;|&nbsp; Free-way Space: 4 mm &nbsp;|&nbsp; IAD: 34 mm',
             ]}
           />
         </InfoBox>

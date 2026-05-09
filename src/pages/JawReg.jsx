@@ -31,10 +31,10 @@ export default function JawReg() {
 
         <SecLabel>Measurements Recorded</SecLabel>
         <MetricGrid>
-          <MetricCard label="Resting Facial Height" value="4.5" unit="mm" />
-          <MetricCard label="Occlusal Vertical Dimension" value="4.5" unit="mm" />
-          <MetricCard label="Free-way Space" value="0.5" unit="mm" />
-          <MetricCard label="Inter-alveolar Distance" value="21" unit="mm" />
+          <MetricCard label="Resting Facial Height" value="60" unit="mm" />
+          <MetricCard label="Occlusal Vertical Dimension" value="56" unit="mm" />
+          <MetricCard label="Free-way Space" value="4" unit="mm" />
+          <MetricCard label="Inter-alveolar Distance" value="34" unit="mm" />
         </MetricGrid>
 
         <P>
