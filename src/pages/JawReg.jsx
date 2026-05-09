@@ -2,12 +2,10 @@ import PageHeader from '../components/PageHeader'
 import PageBody from '../components/PageBody'
 import SecLabel from '../components/SecLabel'
 import { MetricGrid, MetricCard } from '../components/MetricGrid'
-import { ClinicalImg, ImgPair } from '../components/ClinicalImg'
+import { ClinicalImg } from '../components/ClinicalImg'
 import Byline from '../components/Byline'
 import waxBlockTools from '../assets/wax-block-tools.jpeg'
 import waxBlockCarving from '../assets/wax-block-carving.jpeg'
-import recordBlockTop from '../assets/record-block-top.jpeg'
-import recordBlockSide from '../assets/record-block-side.jpeg'
 
 const P = ({ children }) => (
   <p className="text-[14px] leading-[1.85] text-[#3d3530] mb-[18px] font-light">{children}</p>
@@ -55,15 +53,6 @@ export default function JawReg() {
           src={waxBlockCarving}
           alt="Pink wax block being carved and shaped"
           caption="Pink wax record block being trimmed and shaped on the stone model"
-        />
-
-        <SecLabel>Record Blocks</SecLabel>
-        <ImgPair
-          images={[
-            { src: recordBlockTop, alt: 'Red wax record block — top view' },
-            { src: recordBlockSide, alt: 'Red wax record block — side view' },
-          ]}
-          caption="Upper wax record block — occlusal (top) and buccal (side) views"
         />
 
         <Byline />
